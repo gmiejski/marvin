@@ -4,4 +4,4 @@
 
 A keyboard simulation tool for pasting scripts into clipboard-restricted VDI environments.
 
-![demo](./demo.mp4)
+https://github.com/user-attachments/assets/45d96d1b-014c-45af-9d96-91dbad59d5aa
