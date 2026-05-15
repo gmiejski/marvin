@@ -38,9 +38,19 @@ cargo build --release --bin marvin-cli
 2. Press `Cmd+K` to open the action menu, then select **Set Hotkey**
 3. Record your preferred shortcut (e.g. `Ctrl+Opt+V`)
 
+### Configuration
+
+Create `~/.config/marvin/config.toml` to adjust typing speed:
+
+```toml
+delay_ms = 40
+```
+
+Each invocation reads the file, so changes take effect immediately. Default is 15ms if no config file exists.
+
 ### How It Works
 
 1. Copy text to clipboard (supports multi-line)
 2. Click into the target VDI window
 3. Trigger the hotkey
-4. After a 1-second delay, MARVIN simulates keyboard input at the current cursor position
+4. MARVIN simulates keyboard input at the current cursor position
