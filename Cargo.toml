@@ -8,6 +8,14 @@ edition     = "2024"
 description = "Most Annoying Remote VDI Input Nuisance - a keyboard-simulation tool for pasting scripts into clipboard-restricted VDI environments."
 license     = "BSD-3-Clause"
 
+[[bin]]
+name = "marvin"
+path = "src/main.rs"
+
+[[bin]]
+name = "marvin-cli"
+path = "src/cli.rs"
+
 [dependencies]
 eframe     = "0.34"
 enigo      = "0.6"
